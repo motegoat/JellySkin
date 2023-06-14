@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 #loginPage {
-    background-color: linear-gradient(180deg, #AA5CC3 0%, #00A4DC 100%);
+    background: linear-gradient(180deg, #AA5CC3 0%, #00A4DC 100%);
     font-family: Poppins;
 }
 
@@ -15,8 +15,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    border-radius: 5px;
+    width: 500px;
+    border-radius: 10px;
     padding: 20px;
-    background-color: #fff;
+    background-color:#000B25 ;
 }
+
+#loginPage .raised.cancel.block.btnManual.emby-button {
+    display: none;
+  }
+  #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+    display: none;
+  }
