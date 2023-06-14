@@ -5,8 +5,8 @@
     font-family: Poppins;
 }
 
-.headerLeft{
-    display: none;
+body > div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.semiTransparent.noHeaderRight{
+    background-color: rgba(0, 11, 37, 0%);
 }
 
 .manualLoginForm {
