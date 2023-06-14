@@ -5,9 +5,8 @@
     font-family: Poppins;
 }
 
-.sectionTitle {
-    text-align: center;
-    font-weight: 600;
+.headerLeft{
+    display: none;
 }
 
 .manualLoginForm {
@@ -19,6 +18,19 @@
     border-radius: 10px;
     padding: 20px;
     background-color:#000B25 ;
+}
+
+.sectionTitle {
+    text-align: center;
+    font-weight: 600;
+}
+
+#txtManualName{
+    background: transparent;
+}
+
+#txtManualPassword{
+    background: transparent;
 }
 
 #loginPage .raised.cancel.block.btnManual.emby-button {
