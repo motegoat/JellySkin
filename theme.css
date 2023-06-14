@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 #loginPage {
-    background: linear-gradient(180deg, #AA5CC3 0%, #00A4DC 100%);
+    background: linear-gradient(135deg, #AA5CC3 0%, #00A4DC 100%);
     font-family: Poppins;
 }
 
 body > div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.semiTransparent.noHeaderRight{
     background-color: rgba(0, 11, 37, 0%);
+}
+
+.pageTitleWithDefaultLogo {
+    display: none;
 }
 
 .manualLoginForm {
