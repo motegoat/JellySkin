@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/round.css');
 
+/* login page background */
 #loginPage {
     background: linear-gradient(135deg, #AA5CC3 0%, #00A4DC 100%);
     font-family: Poppins;
 }
 
+/* login page remove header */
 body > div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.semiTransparent.noHeaderRight{
     background-color: rgba(0, 11, 37, 0%);
 }
 
+/* login page remove header icon */
 .pageTitleWithDefaultLogo {
     display: none;
 }
 
+/* login form background */
 .manualLoginForm {
     text-align: center;
     display: block;
@@ -24,22 +29,74 @@ body > div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blur
     background-color:#000B25 ;
 }
 
+/* login form title */
 .sectionTitle {
     text-align: center;
     font-weight: 600;
 }
 
+/* coloring input name */
 #txtManualName{
     background: transparent;
 }
 
+/* coloring input password */
 #txtManualPassword{
     background: transparent;
 }
 
+/* hide */
 #loginPage .raised.cancel.block.btnManual.emby-button {
     display: none;
-  }
-  #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+}
+
+/* get rid of the "forgot password" */
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
     display: none;
-  }
+}
+
+/*rounding of edges */
+.blurhash-canvas,
+.button-flat,
+.cardContent,
+.cardContent-button,
+.cardContent-shadow,
+.cardImage,
+.cardImageContainer,
+.cardOverlayButton-hover,
+.cardOverlayButtonIcon,
+.cardPadder,
+.chapterThumb,
+.chapterThumbContainer,
+.chapterThumbTextContainer,
+.checkboxOutline,
+.countIndicator,
+.dialog,
+.emby-input,
+.emby-select-withcolor,
+.emby-textarea,
+.fab,
+.headerButton,
+.innerCardFooter,
+.itemDetailImage,
+.itemSelectionPanel,
+.listItem-border,
+.listItem:hover,
+.listItemButton,
+.listItemIcon,
+.listItemImage,
+.listItemImageButton,
+.multiSelectCheckboxOutline,
+.nowPlayingPageImage,
+.paper-icon-button-light,
+.paperList,
+.playedIndicator,
+.primaryImageWrapper > img,
+.raised,
+.sessionNowPlayingInnerContent,
+.toast,
+.upNextContainer,
+.upNextDialog-poster-img,
+.visualCardBox {
+    border-radius: 10px !important;
+}
