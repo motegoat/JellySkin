@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-@import url('https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/round.css');
+@import url('https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Font%20Awesome/duotone.css');
 
 /* login page background */
 #loginPage {
@@ -63,8 +63,6 @@ body > div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blur
 .cardContent-shadow,
 .cardImage,
 .cardImageContainer,
-.cardOverlayButton-hover,
-.cardOverlayButtonIcon,
 .cardPadder,
 .chapterThumb,
 .chapterThumbContainer,
@@ -100,3 +98,4 @@ body > div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blur
 .visualCardBox {
     border-radius: 10px !important;
 }
+
