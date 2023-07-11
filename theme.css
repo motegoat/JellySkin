@@ -307,14 +307,20 @@ div[data-role="controlgroup"] a[data-role="button"] {
   .osdPoster img {
     border-radius: var(--rounding); border: none;
   }
+  
+  .osdVolumeSlider::-moz-range-thumb,
   .mdl-slider::-moz-range-thumb {
-    border-radius: var(--rounding);
+    border-radius: 20px;
   }
+
+  .osdVolumeSlider::-moz-range-thumb,
   .mdl-slider::-ms-thumb {
-    border-radius: var(--rounding);
+    border-radius: 20px;
   }
+
+  .osdVolumeSlider::-moz-range-thumb,
   .mdl-slider::-webkit-slider-thumb {
-    border-radius: var(--rounding);
+    border-radius: 20px;
   }
   
   div[data-role="controlgroup"] a[data-role="button"]:first-child {
